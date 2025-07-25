@@ -10,7 +10,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Flower Shop</title>
 </head>
-<body class="bg-white text-gray-800 font-noto">
+<body class="bg-white text-gray-800 font-noto ">
   <section class="lg:px-10 px-1">
   <!-- navbar -->
 
@@ -201,7 +201,8 @@
      <img 
   src="trusted-badge.png" 
   alt="Trusted Badge"
-  class="hidden lg:block absolute -top-28 -right-22 w-[280px] h-[280px] "
+  class="hidden lg:block absolute -top-28 right-0 translate-x-1/4 w-[280px] h-[280px]"
+  style="transform: translateX(20%);"
 />
     </div>
 
@@ -265,7 +266,7 @@
       <br>classic roses to exotic blooms, we offer a wide variety of fresh.
     </p>
   </div>
-<section class="mt-25">
+<div class="mt-24">
   <div class="flex flex-col lg:flex-row gap-6">
     <!-- Left Column: two stacked cards (33% width) -->
     <div class="flex flex-col gap-6 lg:w-1/3">
@@ -330,19 +331,19 @@
       </div>
     </div>
   </div>
-</section>
+</div>
 </section>
 
 
 <!-- Join Section -->
-<section class=" bg-cover bg-center bg-no-repeat mt-28" style="background-image: url('news-letter-bg.png') ;">
+<section class=" bg-cover bg-center bg-no-repeat mt-28 " style="background-image: url('news-letter-bg.png') ;">
   <div class="bg-black/40 w-full h-full py-20 md:py-36 px-4">
     <div class="mx-auto text-center text-white space-y-6 px-4">
       <h2 class="text-2xl md:text-4xl font-bold">
         Join the colorful Bunch
       </h2>
 
-      <!-- ✅ Form always inline -->
+      
       <form class="flex items-center justify-center w-full max-w-xl mx-auto">
         <input
           type="email"
@@ -362,7 +363,7 @@
 
 <!-- Footer Section -->
 <footer class=" text-gray-700 px-4 lg:px-20 py-12 font-noto">
-  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
     
     <!-- Logo & Description -->
     <div class="space-y-4">
